@@ -16,7 +16,6 @@ createApp({
             console.log(this.arrayListEmail);
         },
     },
-
     created(){
         this.getData();
     }

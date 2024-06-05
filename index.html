@@ -9,7 +9,7 @@
 <body>
     <main>
         <div id="app">
-            <ul>
+            <ul v-if="arrayListEmail.length  > 9">
                 <li v-for="(email, index) in arrayListEmail">
                     <p>{{email}}</p>
                 </li>
